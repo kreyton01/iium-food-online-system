@@ -5,7 +5,7 @@ Web app proposal about IIUM food online delivery system
 
 ## Web Application Proposal
 ## Title: IIUM Food Order & Delivery System
-
+### Lecturer Name: Mohd Khairul Azmi bin Hassan
 ### List of members: 
 ### 1) MUHAMMAD HAZIQ BIN ZULKIFLI 2019441
 ### 2) MUHAMMAD AMIRUDDIN BIN ALIAS 2011349
