@@ -55,7 +55,7 @@ The controller contains logic that updates the model and/or view in response to 
 Routing in Laravel allows the user to direct all application requests to the correct controller. Routing controllers also enable users to create controller classes that contain methods for handling requests.
  Below are the customer registration and authentication routes used for them to log in to the website and make orders.
 
-[Imgur](https://i.imgur.com/K8ghEKl.jpg)
+[Imgur](https://imgur.com/YY4L1bT)
 
 
 ### Models
