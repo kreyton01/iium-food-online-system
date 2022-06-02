@@ -81,7 +81,6 @@ The model specifies what data should be included in the app. If the state of thi
 
 ### References
 
-
-
+Youtube Presentation Link: https://youtu.be/gbvI-T7sKog
 
 
