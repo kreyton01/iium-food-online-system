@@ -69,7 +69,7 @@ The model specifies what data should be included in the app. If the state of thi
 
 ### Entity Relationship Diagram
 
-[Imgur](https://imgur.com/cMzzrgG)
+[Imgur](https://i.imgur.com/cMzzrgG.png)
 
 ### Mockups
 
