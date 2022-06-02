@@ -1,8 +1,8 @@
 # iium-food-online-system
 Web app proposal about IIUM food online delivery system
-
+# INTERNATIONAL ISLAMIC UNIVERSITY MALAYSIA, GOMBAK
 # INFO 3305 : WEB APPLICATION DEVELOPMENT
-
+## KULLIYYAH OF INFORMATION AND COMMUNICATION TECHNOLOGY
 ## Web Application Proposal
 ## Title: IIUM Food Order & Delivery System
 ### Lecturer Name: Mohd Khairul Azmi bin Hassan
