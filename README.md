@@ -67,11 +67,15 @@ The model specifies what data should be included in the app. If the state of thi
 
 [Imgur](https://i.imgur.com/K8ghEKl.jpg)
 
+### Entity Relationship Diagram
+
+[Imgur](https://imgur.com/cMzzrgG)
+
 ### Mockups
 
 [Homepage](https://i.imgur.com/ImHHj4U.jpg)
 [Food Order](https://i.imgur.com/MxZhKud.png)
-[Track Delivery](https://imgur.com/P93eUF6)
+[Track Delivery](https://i.imgur.com/P93eUF6.jpg)
 [Contact Us](https://i.imgur.com/26iGhnG.jpg)
 
 ### References
