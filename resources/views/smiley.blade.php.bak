@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+
+
+<link href="{{ URL::asset('js/scrollTo.js') }}" rel="script">
+<link href="{{ URL::asset('css/smileyHome.css') }}" rel="stylesheet">
+
+<link href="{{ URL::asset('images/smiley.jpg') }}" rel="image_src">
+<link href="{{ URL::asset('images/adsInfo.jpg') }}" rel="image_src">
+<link href="{{ URL::asset('images/nasi-ayam.jpeg') }}" rel="image_src">
+
+
+<html lang="en" dir="ltr">
+  <head>
+    
+    <meta charset="utf-8">
+    <title>HOME - Welcome to Smiley Food Order & Delivery</title>
+  </head>
+  <body>
+
+  <div class="top-site">
+
+    <div class="top-site-child description" style="width:100%">
+
+      <h2>Welcome to Smiley Food Order & Delivery</h2>
+      <p>
+        This page is created by the students of IIUM Gombak in Order
+    <br>to help the people who are hungry but do not have the time to
+    <br>order and deliver the food the them safely as soon as possible.
+    </p>
+
+    </div>
+
+    <div class="top-site-child advertisement">
+      <img src="{{ URL::asset('images/adsInfo.jpg') }}" alt="This area should be an advertisement area." style="width:100%">
+    </div>
+  </div>
+  <br><br>
+
+  <div class="topnav">
+    <a class="active" href="#home">Homepage</a>
+
+    <a href="/orderfood" class="nav-link">Order Food</a>
+    <a href="/TrackingOrder"class="nav-link">Track Delivery</a>
+    <a href="/report"class="nav-link">Report</a>
+    <a href="/about"class="nav-link">About</a>
+  </div>
+
+  <div class="foodpic">
+
+    <div class="foodpic-child">
+      <img src="{{ URL::asset('images/nasi-lemak.jpeg') }}" style="width:100%">
+    </div>
+    <div class="foodpic-child">
+      <img src="{{ URL::asset('images/nasi-ayam.jpeg') }}" style="width:100%">
+    </div>
+
+  </div>
+
+  </body>
+</html>

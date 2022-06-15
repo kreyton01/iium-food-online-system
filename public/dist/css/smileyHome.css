@@ -1,0 +1,65 @@
+body {
+  background-color: #f0ff05;
+}
+
+div.top-site-child{
+  width: 50%;
+  float: left;
+  margin: 10px;
+  padding: 5px;
+}
+
+div.top-site{
+  content: "";
+  clear: both;
+  display: table;
+
+}
+div.description {
+  background: white;
+  border: 2px solid black;
+  width: 50%
+}
+
+div.advertisement{
+  border: 2px solid black;
+  width: 50%;
+}
+
+div.foodpic-child{
+  width:33.33%;
+  float: left;
+  margin: 10px;
+  padding: 5px;
+  border: 5px solid black;
+}
+
+div.foodpic::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.topnav {
+ overflow: hidden;
+ background-color: #333;
+}
+
+.topnav a {
+ float: left;
+ color: #f2f2f2;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+}
+
+.topnav a:hover {
+ background-color: #ddd;
+ color: black;
+}
+
+.topnav a.active {
+ background-color: #04AA6D;
+ color: white;
+}
