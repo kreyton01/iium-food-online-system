@@ -1,86 +1,64 @@
-# iium-food-online-system
-Web app proposal about IIUM food online delivery system
-# INTERNATIONAL ISLAMIC UNIVERSITY MALAYSIA, GOMBAK
-# INFO 3305 : WEB APPLICATION DEVELOPMENT
-## KULLIYYAH OF INFORMATION AND COMMUNICATION TECHNOLOGY
-## Web Application Proposal
-## Title: IIUM Food Order & Delivery System
-### Lecturer Name: Mohd Khairul Azmi bin Hassan
-### Section 2
-### List of members: 
-### 1) MUHAMMAD HAZIQ BIN ZULKIFLI 2019441
-### 2) MUHAMMAD AMIRUDDIN BIN ALIAS 2011349
-### 3) SULAIMAN ARIFFIN BIN SAJI 2014975
-### 4) MUHAMMAD HAZIM BIN NOR AIZI 2017455
-### 5) IKRAM SOLEHIN BIN MOHD RIZAL 2014303
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
+## About Laravel
 
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-### Introduction
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-The food sector has been getting a lot of advancement lately with the production of food ordering application(s) such as GrabFood, ShopeeFood, Food Panda, etc.. Therefore, as a group of graduates-to-be from International Islamic University Malaysia, we have decided to dedicate our journey into creating the “Food Delivery Website IIUM”.
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-### Objectives
+## Learning Laravel
 
-As the creators of “Food Delivery Website IIUM”, our objectives are as follows :
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-* To create a website that compiles every Mahallah’s cafeteria providers,
-* To create a website that compiles every Mahallah’s coop stores,
-* To create a website that helps every IIUM students’ runners or food runners,
-* To create a website that helps with every IIUM students’ hunger needs,
-* To create a website that provides delivery services across campus,
-* To create a website that simplifies orders and deliveries,
-* To create a hassle-free user interface that customers will have no problem navigating through
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
+## Laravel Sponsors
 
-### Features & Functionalities
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-* Login Features : Login & Register Account Function
-* Order Features : Order & Menu Function
-* Payment Features : Payment Method Function
-* Runners Features : Runners Registration & Delivery Function
-* Cafe-Owner Features : Cafe/Stalls Accepting Order Function 
+### Premium Partners
 
-### Views
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[OP.GG](https://op.gg)**
+- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+- **[Lendio](https://lendio.com)**
 
-The view specifies how the data in the app should be displayed. Based on the user's actions, it displays data to the user in an easy-to-understand format. In our food and beverage menu app, the view would describe how the menu is presented and receive data from the model to display.
+## Contributing
 
-### Controllers
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-The controller contains logic that updates the model and/or view in response to app users' input. For example, our food and beverage menu could include input forms and buttons for adding and removing items. Because these actions necessitate updating the model, the input is sent to the controller, which then manipulates the model as needed before sending updated data to the view. The user may also want to simply update the view to display the data in a different format, such as changing the item order to from lowest to highest price. In this case, the controller could handle it without requiring an update to the model.
+## Code of Conduct
 
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-### Routes
+## Security Vulnerabilities
 
-Routing in Laravel allows the user to direct all application requests to the correct controller. Routing controllers also enable users to create controller classes that contain methods for handling requests.
- Below are the customer registration and authentication routes used for them to log in to the website and make orders.
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-[Imgur](https://imgur.com/YY4L1bT)
+## License
 
-
-### Models
-
-The model specifies what data should be included in the app. If the state of this data changes, the model will usually notify the view so that the display can be updated as needed and occasionally the controller in which if different logic is needed to control the updated view. It also structures the data and prepares it in accordance with the controller's instructions. Returning to our food and beverages menu app, the model would specify what data the menu items should contain which are item, price, and so on as well as which menu items are already present.
-
-
-### Interaction (Sequence Diagram)
-
-[Imgur](https://i.imgur.com/K8ghEKl.jpg)
-
-### Entity Relationship Diagram
-
-[Imgur](https://i.imgur.com/cMzzrgG.png)
-
-### Mockups
-
-[Homepage](https://i.imgur.com/ImHHj4U.jpg)
-[Food Order](https://i.imgur.com/MxZhKud.png)
-[Track Delivery](https://i.imgur.com/P93eUF6.jpg)
-[Contact Us](https://i.imgur.com/26iGhnG.jpg)
-
-### References
-
-Youtube Presentation Link: https://youtu.be/gbvI-T7sKog
-
-
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

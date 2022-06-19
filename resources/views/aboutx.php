@@ -16,32 +16,34 @@
 
  
   
- <form align="center">
+  </head>
+  <form align="center">
     <body>
       <h2>Smiley Food Order & Delivery</h2>
      
       <div class="container", style="margin-left:auto;margin-right:auto;">
 
-    <h1 >ABOUT US</h1>
-   
+    <h1 style="color:red; font-size: 300%;">ABOUT US</h1>
+    <h1 style="color:blue;">Smiley Food Order & Delivery</h1>
+    <br>
 
 
 
-<img src="{{ URL::asset('images/smiley.jpg') }}"  width="280" height="172">
+<img src="smiley.jpg"  width="280" height="172">
     <br>
     <br>
 
       <h2>Our Mission</h2>
-      <p><b>Creating a very good environment of the food delivery is our sole purpose to be the best food delivery in the country </p></b>
-      <p><b>Ensuring a high quality service is our most priority with a great deal of promos and affordable prices.</p></b>
+      <p>Creating a very good environment of the food delivery is our sole purpose to be the best food delivery in the country </p>
+      <p>Ensuring a high quality service is our most priority with a great deal of promos and affordable prices.</p>
 
       <h2>Our Vision</h2>
-      <p><b>Aims for excellence at being the best, consistent and most reliable in the city for needs pertaining hunger.</p></b>
-      <p><b>Wide spread offering of diet conscious dishes, prompt delivery, hygienic and eco-friendly packaging are our precedence.</p></b>
+      <p>Aims for excellence at being the best, consistent and most reliable in the city for needs pertaining hunger.</p>
+      <p>Wide spread offering of diet conscious dishes, prompt delivery, hygienic and eco-friendly packaging are our precedence.</p>
       <br><br>
       <h2><b>Have a problem?</h2></b>
 
-      <a href="/report" class="button">Tell Us</a>
+      <a href="report.html" class="button">Tell Us</a>
 
     </div>
 
@@ -51,11 +53,4 @@
   </form>
   </body>
   </html>
-
-    @endauth 
-        @guest
-        <h1>Welcome to Smiley Food Order & Delivery! </h1>
-        <p class="lead">You are currently viewing the home page. Please login or create an account to access more features.</p>
-        @endguest
-    </div>
 @endsection

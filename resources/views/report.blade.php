@@ -1,53 +1,64 @@
-<!DOCTYPE html>
-<html>
-<head>
+@extends('layouts.app-master')
+       
+@section('content')
+    <div class="bg-light p-5 rounded">
+        @auth
+        <link href="{{ URL::asset('js/scrollTo.js') }}" rel="script">
+		<link href="{{ URL::asset('js/report.js') }}" rel="script">
+<link href="{{ URL::asset('css/smileyHome.css') }}" rel="stylesheet">
+    <link href=	"{{ URL::asset('bootstrap/css/bootstrap.min.css') }}" rel="stylesheet"
+	    <link href="{{ URL::asset('assets/css/app.css') }}" rel="stylesheet"
+		 <script src=	"{{ URL::asset('assets/bootstrap/js/bootstrap.bundle.min.js') }}"</script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
-<script type="text/javascript" src="report.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="report.css">
+<html lang="en" dir="ltr">
+  <head>
+
 
 </head>
 <body>
 
-<h2>Smiley Food Order & Delivery</h2>
-<div class="topnav">
-  <a href="smileyHome.html">Homepage</a>
-  <a href="orderfood.html">Order Food</a>
-  <a href="TrackingOrder.html">Track Delivery</a>
-  <a class="active" href="report.html">Report</a>
-  <a href="about.html">About</a>
-</div>
 
+
+<!-- 	 <img src="{{ URL::asset('images/pancake.jpg') }}" style="width:20%"> -->
 <div class="container">
-  <div style="text-align:center">
-    <h2>Contact Us</h2>
+  <div style="text-align:center width="500px"">
+    <h2>Smiley Food Order & Delivery</h2>
+
+	<h2>Contact Us</h2>
+	
     <p>Leave us a message:</p>
   </div>
   <div class="row">
-    <div class="column">
-      <img src="pancake.jpg" style="width:100%">
+    <div class="row">
+     
     </div>
-    <div class="column">
-      <form method="post" name ="myForm" onsubmit="return validateForm()" action ="thanks.html">
+    <div class="row" >
+      <form action="/report" method="post" name ="myForm" onsubmit="return validateForm()" style="width:400px"; >
+	  @CSRF
         <div class ="form-shape">
           <label for="query">
             Type of Query
           </label><br>
 
-          <select name="myQuery" id="query">
+          <select style="width:400px" name="myQuery" id="query" >
             <option value ="sel" selected>
               Select
             </option>
-            <option value="ord">
+            <option Required value="ord">
               Order related issues
             </option>
-            <option value="Site">
+            <option Required value="Site">
               Site related issues
             </option>
-            <option value="fed">
+            <option Required value="fed">
               Complaint related Issues
             </option>
-            <option value="others">
+            <option Required value="others">
               Others
             </option>
           </select>
@@ -55,19 +66,19 @@
 
         <div>
         <label for="name">First Name</label><br>
-        <input type="text" id="fname" name="firstname" placeholder="Your name.."> <br><br>
+        <input type="text" style="width:400px" id="fname" name="firstname" placeholder="Your name.." Required> <br><br>
         </div>
         <div>
         <label for="lname">Last Name</label><br>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br><br>
+        <input type="text" style="width:400px" id="lname" name="lastname" placeholder="Your last name.." Required><br><br>
         </div>
         <div>
         <label for="email">E-mail</label><br>
-        <input type="text" id="email" name="email" placeholder="Your e-mail.."><br><br>
+        <input type="text" style="width:400px" id="email" name="email" placeholder="Your e-mail.." Required><br><br>
         </div>
         <div>
         <label for="subject">Subject</label><br>
-        <textarea id="subject" name="subject" placeholder="Elaborate your query.." style="height:170px"></textarea><br><br>
+        <textarea id="subject" style="width:400px" style="height:400px" name="subject" placeholder="Elaborate your query.." Required style="height:170px"></textarea><br><br>
         </div>
         <div class="button">
             <input type="submit" value="Submit">
@@ -81,3 +92,11 @@
 </div>
 </body>
 </html>
+  
+ @endauth 
+        @guest
+        <h1>Welcome to Smiley Food Order & Delivery! </h1>
+        <p class="lead">You are currently viewing the home page. Please login or create an account to access more features.</p>
+        @endguest
+    </div>
+@endsection
