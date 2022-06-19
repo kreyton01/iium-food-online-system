@@ -89,4 +89,9 @@ Changelog:
 - Website files uploaded
 - Final Report: https://docs.google.com/document/d/1JVWNnCtoLlzWIDafB-VMP_XlxaM1OyWgFdEHKrRwaMs
 
+19/6/2022
+- Overhauled the website and user interface
+- Included shopping cart system, report system & clear cart session after checkout
+
+[Attachments](https://docs.google.com/document/d/1JVWNnCtoLlzWIDafB-VMP_XlxaM1OyWgFdEHKrRwaMs/)
 
